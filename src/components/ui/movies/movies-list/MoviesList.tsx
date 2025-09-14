@@ -1,3 +1,9 @@
+'use client'
+
+import { useSelector } from 'react-redux'
+
+import { getIdsSelector } from '@/store/favourites/selectors/getIdsSelector'
+
 import { MovieCard } from '../movies-card/MovieCard'
 
 import styles from './MoviesList.module.scss'
@@ -9,6 +15,13 @@ interface MoviesListProps {
 
 export function MoviesList(props: MoviesListProps) {
 	const { movies } = props
+	const favouritesIds = useSelector(getIdsSelector)
+
+	const moviesFavourites = movies.filter(movie =>
+		favouritesIds.includes(movie.id)
+	)
+
+	console.log('список избранных фильмов', moviesFavourites)
 
 	return (
 		<div className={styles.list}>

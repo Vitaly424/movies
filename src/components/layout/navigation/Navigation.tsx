@@ -8,8 +8,6 @@ import { navigationData } from './navigation.data'
 export function Navigation() {
 	const pathname = usePathname()
 
-	console.log('pathname', pathname)
-
 	return (
 		<nav className={styles.nav}>
 			{navigationData.map(item => (
