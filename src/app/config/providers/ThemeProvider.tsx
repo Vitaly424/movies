@@ -3,7 +3,7 @@ import { PropsWithChildren } from 'react'
 
 export function ThemeProvider({ children }: PropsWithChildren<unknown>) {
 	return (
-		<ThemeProviderLib attribute='class' defaultTheme='system' enableSystem>
+		<ThemeProviderLib attribute='class' defaultTheme='dark'>
 			{children}
 		</ThemeProviderLib>
 	)

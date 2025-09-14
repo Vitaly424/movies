@@ -2,7 +2,7 @@
 	"movies": [
 		{
 			"id": 1,
-			"image": "/inception.jpg",
+			"image": "/incep.jpg",
 			"title": "Inception",
 			"release_date": "2010-07-16",
 			"rating": 8.8,
