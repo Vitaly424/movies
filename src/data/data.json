@@ -1,0 +1,68 @@
+{
+	"movies": [
+		{
+			"id": 1,
+			"image": "/inception.jpg",
+			"title": "Inception",
+			"release_date": "2010-07-16",
+			"rating": 8.8,
+			"overview": "A thief who enters the dreams of others to steal secrets from their subconscious is offered a chance to have his criminal history erased."
+		},
+		{
+			"id": 2,
+			"image": "/interstellar.jpg",
+			"title": "Interstellar",
+			"release_date": "2014-11-07",
+			"rating": 8.6,
+			"overview": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival."
+		},
+		{
+			"id": 3,
+			"image": "/the-dark-knight.jpg",
+			"title": "The Dark Knight",
+			"release_date": "2008-07-18",
+			"rating": 9.1,
+			"overview": "Batman faces the Joker, a criminal mastermind who wants to plunge Gotham City into anarchy."
+		},
+		{
+			"id": 4,
+			"image": "/the-matrix.jpg",
+			"title": "The Matrix",
+			"release_date": "1999-03-31",
+			"rating": 8.7,
+			"overview": "A computer hacker learns about the true nature of reality and his role in the war against its controllers."
+		},
+		{
+			"id": 5,
+			"image": "/fight-club.jpg",
+			"title": "Fight Club",
+			"release_date": "1999-10-15",
+			"rating": 8.8,
+			"overview": "An insomniac office worker and a soap maker form an underground fight club that evolves into something much more."
+		},
+		{
+			"id": 6,
+			"image": "/the-shawshank-кedemption.jpg",
+			"title": "The Shawshank Redemption",
+			"release_date": "1994-09-23",
+			"rating": 9.3,
+			"overview": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency."
+		},
+		{
+			"id": 7,
+			"image": "/pupl-fiction.jpg",
+			"title": "Pulp Fiction",
+			"release_date": "1994-10-14",
+			"rating": 8.9,
+			"overview": "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption."
+		},
+		{
+			"id": 8,
+			"image": "/the-lord-of-the-rings.jpg",
+			"title": "The Lord of the Rings: The Fellowship of the Ring",
+			"release_date": "2001-12-19",
+			"rating": 8.8,
+			"overview": "A meek Hobbit and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron."
+		}
+	]
+}

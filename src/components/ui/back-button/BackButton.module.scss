@@ -1,0 +1,13 @@
+.back {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+	margin-bottom: 20px;
+	color: var(--color-secondary);
+	font-size: 18px;
+	transition: color 0.2s linear;
+
+	&:hover {
+		color: var(--color-secondary-hover);
+	}
+}

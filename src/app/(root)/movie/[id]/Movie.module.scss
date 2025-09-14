@@ -1,0 +1,31 @@
+.image_box {
+	position: relative;
+	border-radius: 12px;
+	overflow: hidden;
+}
+
+.box {
+	display: flex;
+	gap: 20px;
+
+	@media (max-width: 767px) {
+		flex-direction: column;
+	}
+}
+
+.description {
+	margin-bottom: 20px;
+	margin-top: 20px;
+	max-width: 600px;
+}
+
+.heading {
+	margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.date {
+	color: var(--color-secondary);
+}

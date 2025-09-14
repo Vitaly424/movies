@@ -1,0 +1,14 @@
+.btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 32px;
+	height: 32px;
+	background-color: var(--color-favourites);
+	border-radius: 50%;
+
+	transition: background-color 0.2s linear;
+	&:hover {
+		background-color: var(--color-favourites-hover);
+	}
+}
